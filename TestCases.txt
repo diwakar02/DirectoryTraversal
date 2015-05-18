@@ -1,0 +1,32 @@
+Positive Test Cases:-
+
+Check for the parentheses
+check for the regular expression
+Check for root directory exists
+Check for dictionary containing values
+
+
+Negative test cases:
+a) Leave a parentheses and check for error
+
+b) Enter a wrong regular expression and check for error 
+1. Unterminated Regular Expression
+2. Starts with a digit
+3. Start with illegal character
+4. Illegal Escape Sequence
+
+
+c) Enter the wrong path manually ( absolute path)
+d) check for imports used incorrectly
+ import pyplot as plt but use as pyplot in code for error
+
+e) Illegal use of variable
+define a variable but use a variable with a different name
+
+f) Make sure the dictionary contains more than 128 entries in which case Matplotlib won’t work. 
+
+
+Logical Test:
+1. Put os.path.basename[dirpath] instead of dirpath which gives only name of directory and not the path as mentioned 
+2. Initialise count variable inside second loop which will keep on increasing the value of count for every directory and give incorrect results.
+ 
